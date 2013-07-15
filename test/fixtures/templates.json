@@ -1,0 +1,10 @@
+[
+  {
+    "identifier" : "stockchart",
+    "url" : "http://csv.io/templates/1.json"
+  },
+  {
+    "identifier" : "template-2",
+    "url" : "http://csv.io/templates/2.json"
+  }
+]

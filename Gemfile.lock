@@ -1,0 +1,36 @@
+PATH
+  remote: .
+  specs:
+    csvio (0.1.0)
+      httmultiparty (>= 0.3.10)
+
+GEM
+  remote: https://rubygems.org/
+  specs:
+    addressable (2.3.5)
+    crack (0.4.0)
+      safe_yaml (~> 0.9.0)
+    httmultiparty (0.3.10)
+      httparty (>= 0.7.3)
+      multipart-post
+    httparty (0.11.0)
+      multi_json (~> 1.0)
+      multi_xml (>= 0.5.2)
+    minitest (5.0.6)
+    multi_json (1.7.7)
+    multi_xml (0.5.4)
+    multipart-post (1.2.0)
+    rake (10.1.0)
+    safe_yaml (0.9.4)
+    webmock (1.13.0)
+      addressable (>= 2.2.7)
+      crack (>= 0.3.2)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  csvio!
+  minitest
+  rake
+  webmock
